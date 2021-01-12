@@ -25,8 +25,10 @@
   "author": "ds-compose",
   "license": "MIT",
   "dependencies": {
+    "@spectrum-web-components/action-menu": "^0.6.5",
     "@spectrum-web-components/button": "^0.9.4",
     "@spectrum-web-components/theme": "^0.6.3",
+    "@spectrum-web-components/top-nav": "^0.0.5",
     "focus-visible": "^5.2.0",
     "lit-element": "^2.0.1",
     "lit-html": "^1.0.0",

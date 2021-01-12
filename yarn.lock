@@ -983,6 +983,11 @@
     "@open-wc/rollup-plugin-html" "^1.2.5"
     polyfills-loader "^1.7.5"
 
+"@popperjs/core@^2.2.2":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.6.0.tgz#f022195afdfc942e088ee2101285a1d31c7d727f"
+  integrity sha512-cPqjjzuFWNK3BSKLm0abspP0sp/IGOli4p5I5fKFAzdS8fvjdOwDCfZqAaIiXd9lPkOWi3SUUfZof3hEb7J/uw==
+
 "@rollup/plugin-babel@^5.1.0":
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.2.2.tgz#e5623a01dd8e37e004ba87f2de218c611727d9b2"
@@ -1052,6 +1057,19 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@spectrum-web-components/action-menu@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/action-menu/-/action-menu-0.6.5.tgz#7cf7beec55ef7a1a7dbe90d6c2b9dd4c1b78dc2e"
+  integrity sha512-wim/CZ5we35yYbBOpsRynV2Je5nyNIWKaggnSwBdX3mEvEBOCCZWikGscZK5J1kib8nWEnUwNtBOCNEikyDKlA==
+  dependencies:
+    "@spectrum-web-components/base" "^0.1.3"
+    "@spectrum-web-components/dropdown" "^0.8.5"
+    "@spectrum-web-components/icon" "^0.6.3"
+    "@spectrum-web-components/icons-workflow" "^0.3.6"
+    "@spectrum-web-components/menu" "^0.4.4"
+    "@spectrum-web-components/shared" "^0.7.4"
+    tslib "^2.0.0"
+
 "@spectrum-web-components/base@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@spectrum-web-components/base/-/base-0.1.3.tgz#3929336db2fbbf52bc429ad74f2fb5aefbaa2e68"
@@ -1073,6 +1091,21 @@
     "@spectrum-web-components/shared" "^0.7.4"
     tslib "^2.0.0"
 
+"@spectrum-web-components/dropdown@^0.8.5":
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/dropdown/-/dropdown-0.8.5.tgz#f4c9ca1ab6a1536683bd3389e9528dffa8468603"
+  integrity sha512-XIT/1gGghBzdtUANfSlFLLJPHezNXPsqnuHeGaU6ufR+cQAcC4ZzFo9I5pudrFq6CE8zNopJ8YbrNhZrDJW3Mg==
+  dependencies:
+    "@spectrum-web-components/base" "^0.1.3"
+    "@spectrum-web-components/button" "^0.9.4"
+    "@spectrum-web-components/icon" "^0.6.3"
+    "@spectrum-web-components/icons-ui" "^0.3.3"
+    "@spectrum-web-components/menu" "^0.4.4"
+    "@spectrum-web-components/overlay" "^0.6.4"
+    "@spectrum-web-components/popover" "^0.5.4"
+    "@spectrum-web-components/shared" "^0.7.4"
+    tslib "^2.0.0"
+
 "@spectrum-web-components/icon@^0.6.3":
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@spectrum-web-components/icon/-/icon-0.6.3.tgz#5a773b6950ae29006a8508a04e4b43972dec7566"
@@ -1091,12 +1124,53 @@
     "@spectrum-web-components/iconset" "^0.2.5"
     tslib "^2.0.0"
 
+"@spectrum-web-components/icons-workflow@^0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/icons-workflow/-/icons-workflow-0.3.6.tgz#89c3bf5010acc623f5c6f4fa32c501313dbd3e0c"
+  integrity sha512-00oUmspwDeuD7tE3imJrMIBTt/Yl6mcDY571pWhDsVpAA9HuM1WL8JYXAN+XUaYKGdV5UlaTZqzqDY6lt8EohA==
+  dependencies:
+    "@spectrum-web-components/base" "^0.1.3"
+    "@spectrum-web-components/iconset" "^0.2.5"
+    tslib "^2.0.0"
+
 "@spectrum-web-components/iconset@^0.2.5":
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/@spectrum-web-components/iconset/-/iconset-0.2.5.tgz#df010e0e47660a6bf02339bddcc0f7213ce0f2c2"
   integrity sha512-ie8s6Zv1GySPUa4TERvPp0d315OZyR5Sq3/C0QrFlt9BB6vk8b4iJOkgoJlPY0yrL00ZTjz+G4S0UJsj6ml1Iw==
   dependencies:
     "@spectrum-web-components/base" "^0.1.3"
+    tslib "^2.0.0"
+
+"@spectrum-web-components/menu@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/menu/-/menu-0.4.4.tgz#89a82015564b8315ca6b6eaddd707f6a314439a2"
+  integrity sha512-2rZld/48X1piow5uboWZpszeJJuR8WsEX291QHAjlm/f0JUhxFx9IrMPpngqTuND4W9Sjkdg4FpLZ81uFeaNOA==
+  dependencies:
+    "@spectrum-web-components/base" "^0.1.3"
+    "@spectrum-web-components/button" "^0.9.4"
+    "@spectrum-web-components/icon" "^0.6.3"
+    "@spectrum-web-components/icons-ui" "^0.3.3"
+    "@spectrum-web-components/shared" "^0.7.4"
+    tslib "^2.0.0"
+
+"@spectrum-web-components/overlay@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/overlay/-/overlay-0.6.4.tgz#413f52c49b72024f59f7a5353e3f865ebe0c5055"
+  integrity sha512-9MWTbojmDBr1ljZ0nvuHtIztM9o0hia5vloyhv2f+ChR2KALn7qAgYRcDIPXDHcwmTs20U9LXwQK1DKNn7Az0A==
+  dependencies:
+    "@popperjs/core" "^2.2.2"
+    "@spectrum-web-components/base" "^0.1.3"
+    "@spectrum-web-components/theme" "^0.6.3"
+    popper-max-size-modifier "^0.2.0"
+    tslib "^2.0.0"
+
+"@spectrum-web-components/popover@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/popover/-/popover-0.5.4.tgz#a94548bfdd5ccfcc11e4a4f0d7b7b76133355879"
+  integrity sha512-L+jOuQZWn81d34J1tT3+CeYt6uu1NmzMNp5WV1Q3mGQfFkRkOJmtJTNAKvukVVtxTUlk5PLEAKf423g7Cjy4Lw==
+  dependencies:
+    "@spectrum-web-components/base" "^0.1.3"
+    "@spectrum-web-components/overlay" "^0.6.4"
     tslib "^2.0.0"
 
 "@spectrum-web-components/shared@^0.7.4":
@@ -1113,6 +1187,15 @@
   resolved "https://registry.yarnpkg.com/@spectrum-web-components/styles/-/styles-0.6.1.tgz#8d215856dbea2fb0fa9a2eb4940b2535ada8583e"
   integrity sha512-SaUmuBhgkqDcQGeUP8EVnSctGpx+Pauw+F7V6w7NCQLL3enIjp6ZPSIqDWjJLc8JkYe9qqoDFOrhczDzOhOuFA==
 
+"@spectrum-web-components/tabs@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/tabs/-/tabs-0.2.4.tgz#ce47a77830d32dbc58a1d3fca3cd07778802870a"
+  integrity sha512-t2BKP3HWmjTQuV0cnXfst9SqV1CTEsHDtWmruez0FNUFp4bfJPBao0NU4koINkagrOxCyjRMKJ2CPkqw7FAHRQ==
+  dependencies:
+    "@spectrum-web-components/base" "^0.1.3"
+    "@spectrum-web-components/shared" "^0.7.4"
+    tslib "^2.0.0"
+
 "@spectrum-web-components/theme@^0.6.3":
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@spectrum-web-components/theme/-/theme-0.6.3.tgz#169a6189174237da75348105398057f3657b179c"
@@ -1120,6 +1203,14 @@
   dependencies:
     "@spectrum-web-components/base" "^0.1.3"
     "@spectrum-web-components/styles" "^0.6.1"
+    tslib "^2.0.0"
+
+"@spectrum-web-components/top-nav@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@spectrum-web-components/top-nav/-/top-nav-0.0.5.tgz#09302c699294b293f5c8c6fa9fb72f718f379958"
+  integrity sha512-S52HVKYdHntpeygcmbjBnpQ3z5nWq6KKo5+G+fhd5Go4NpUY/NP77OuEGhDtWM5Q4wd+kFeY7wVmZy9Mx4c82g==
+  dependencies:
+    "@spectrum-web-components/tabs" "^0.2.4"
     tslib "^2.0.0"
 
 "@surma/rollup-plugin-off-main-thread@^1.1.1":
@@ -4586,6 +4677,11 @@ polyfills-loader@^1.7.5:
     systemjs "^6.3.1"
     terser "^4.6.7"
     whatwg-fetch "^3.0.0"
+
+popper-max-size-modifier@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/popper-max-size-modifier/-/popper-max-size-modifier-0.2.0.tgz#1574744401296a488b4974909d130a85db94256f"
+  integrity sha512-UerPt9pZfTFnpSpIBVJrR3ibHMuU1k5K01AyNLfMUWCr4z1MFH+dsayPlAF9ZeYExa02HPiQn5OIMqUSVtJEbg==
 
 portfinder@^1.0.28:
   version "1.0.28"
