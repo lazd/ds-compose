@@ -2,7 +2,11 @@ import { LitElement, html, css } from 'lit-element';
 
 import '@spectrum-web-components/button/sp-button';
 import '@spectrum-web-components/top-nav/sp-top-nav';
+import '@spectrum-web-components/top-nav/sp-top-nav';
+// import '@spectrum-web-components/top-nav/sp-top-nav-item';
 import '@spectrum-web-components/action-menu/sp-action-menu';
+import '@spectrum-web-components/menu/sp-menu';
+import '@spectrum-web-components/menu/sp-menu-item';
 
 export class DsCompose extends LitElement {
   static get properties() {
@@ -34,9 +38,7 @@ export class DsCompose extends LitElement {
     return html `
       <sp-top-nav>
         <sp-top-nav-item href="#">Compose</sp-top-nav-item>
-        <sp-top-nav-item href="#page-1" style="margin-inline-start: auto;">
-        System
-        </sp-top-nav-item>
+        <sp-top-nav-item href="#page-1" style="margin-inline-start: auto;">System</sp-top-nav-item>
         <sp-top-nav-item href="#page-2">Components</sp-top-nav-item>
         <sp-top-nav-item href="#page-3">Publish</sp-top-nav-item>
         <sp-action-menu
