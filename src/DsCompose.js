@@ -1,6 +1,8 @@
 import { LitElement, html, css } from 'lit-element';
 
 import '@spectrum-web-components/theme/sp-theme';
+import '@spectrum-web-components/theme/theme-dark.js';
+import '@spectrum-web-components/theme/scale-medium.js';
 import '@spectrum-web-components/button/sp-button';
 
 export class DsCompose extends LitElement {
@@ -24,9 +26,8 @@ export class DsCompose extends LitElement {
 
   render() {
     return html`
-      <sp-theme scale="large" color="dark">
+      <sp-theme scale="medium" color="dark">
         <sp-button>I'm supposed to be a button!</sp-button>
-
       </sp-theme>
     `;
   }
